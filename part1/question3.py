@@ -61,8 +61,3 @@ def alchemy_combine(oven, ingredients, temperature):
     oven.wait()
 
   return oven.get_output()
-
-
-"""print(alchemy_combine( make_oven(), ["lead", "mercury"],5000))
-print(alchemy_combine(make_oven(), ["water", "air"], -100) )"""
-print(alchemy_combine(    make_oven(), ["cheese", "dough", "tomato"],150))
